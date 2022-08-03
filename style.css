@@ -332,6 +332,27 @@ iframe {
     border-radius: 7px;
 }
 
+.col h3 {
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.email-id {
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.col ul li {
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+.col ul li a {
+    text-decoration: none;
+}
+
 @media (max-width: 1024px) {
     .site-logo {
         font-size: 1.2rem;
