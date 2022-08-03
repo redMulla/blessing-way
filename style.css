@@ -376,6 +376,13 @@ form input {
     outline: none;
 }
 
+form button {
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
 @media (max-width: 1024px) {
     .site-logo {
         font-size: 1.2rem;
