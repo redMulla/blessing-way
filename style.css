@@ -404,6 +404,17 @@ form button .send {
     margin-right: 15px;
 }
 
+hr {
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+}
+
+.copyright {
+    text-align: center;
+}
+
 @media (max-width: 1024px) {
     .site-logo {
         font-size: 1.2rem;
