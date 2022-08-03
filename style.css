@@ -369,7 +369,11 @@ form .envelope {
 }
 
 form input {
-    
+    width: 100%;
+    background: transparent;
+    color: #ccc;
+    border: 0;
+    outline: none;
 }
 
 @media (max-width: 1024px) {
