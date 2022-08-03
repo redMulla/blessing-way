@@ -383,6 +383,11 @@ form button {
     cursor: pointer;
 }
 
+form button .send {
+    font-size: 16px;
+    color: #ccc;
+}
+
 @media (max-width: 1024px) {
     .site-logo {
         font-size: 1.2rem;
