@@ -354,6 +354,24 @@ iframe {
     color: #fff;
 }
 
+form {
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+
+form .envelope {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+form input {
+    
+}
+
 @media (max-width: 1024px) {
     .site-logo {
         font-size: 1.2rem;
