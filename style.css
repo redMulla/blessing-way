@@ -286,6 +286,52 @@ header {
     padding: 12px 0;
 }
 
+.description {
+    color: rgb(15, 0, 70);
+    text-align: center;
+    margin: 50px 10%;
+    font-size: 1.2em;
+}
+
+.des-container h3 {
+    font-size: 1.5em;
+}
+
+.des-container p {
+    margin-top: 20px;
+}
+
+footer {
+    width: 100%;
+    /* position: absolute; */
+    bottom: 0;
+    background: linear-gradient(to right, #0b4e12, #002b04);
+    color: #fff;
+    padding: 100px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.row {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.col {
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+iframe {
+    height: 200px;
+    width: 270px;
+    border-radius: 7px;
+}
+
 @media (max-width: 1024px) {
     .site-logo {
         font-size: 1.2rem;
