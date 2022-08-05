@@ -502,7 +502,31 @@ hr {
     header.active {
         background-color: #e2ffe0;
     }
+
+    .col {
+        flex-basis: 50%;
+    }
+    
+    .col:nth-child(2), .col:nth-child(3) {
+        flex-basis: 50%;
+    }
 }
 
+@media (max-width: 683px) {
+    .col {
+        flex-basis: 100%;
+    }
+    
+    .col:nth-child(2), .col:nth-child(3) {
+        flex-basis: 100%;
+    }
+}
 
-
+@media (max-width: 480px) {
+    .home-banner {
+        font-size: 1.2em;
+    }
+    .h2text {
+        font-size: 1em;
+    }
+}
